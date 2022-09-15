@@ -43,3 +43,13 @@ http://localhost:3000/api/seed
 
 - MongoDB
 - Nest
+
+# Notes
+
+Keroku redeploy sin cambios:
+
+```
+git commit --allow-empty -m "Tigger Heroku deploy"
+
+git push heroku <master | main>
+```
